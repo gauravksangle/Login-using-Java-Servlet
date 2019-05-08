@@ -1,0 +1,141 @@
+body{
+    background-image: url(image.jpg);
+    /*background-image: url(../NkSZ4lT.jpg);*/
+    background-repeat: repeat;
+    background-size: 100% 1000px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 50px);
+}
+.simple-form{
+    text-align: center;
+    margin: 100px 400px;
+}
+#DonHead{
+    margin-top: -50px;
+    text-align: center;
+    color: white;
+}
+
+#registration{
+    width: 100%;
+    background-color: #051019;
+    opacity: 0.8;
+    padding: 65px 0px;
+    
+}
+#DonorNm{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+#city{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+#phno{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+#bloodTy{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+#rh{
+    
+}
+#but{
+    color: white;
+    font-size: 18px;
+}
+#addr{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+#sub{
+    width: 125px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+    background-color: #0c6996;
+    border: 2px solid #01010c;
+    color: aliceblue;
+    font-size: 15px;
+}
+#res{
+    width: 125px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+    background-color: #0c6996;
+    border: 2px solid #01010c;
+    color: aliceblue;
+    font-size: 15px;
+}
+#lnk{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+    /*background-color: #051019;*/
+}
+
+li {
+    float: left;
+    /*border-right:1px solid #bbb;*/
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    /*background-color: #0c6996;*/
+    width: 75px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+    background-color: #0c6996;
+    /*border: 2px solid #01010c;*/
+    color: aliceblue;
+    font-size: 15px;
+}
+h1{
+    /*margin-top: 100px;*/
+    text-align: center;
+    color:black;
+}
